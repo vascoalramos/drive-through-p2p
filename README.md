@@ -36,10 +36,10 @@ $ git merge upstream/master
 
 ## Authors
 
-* **Vasco Ramos (nmec  88931)** - [BlasphemyCoder](https://github.com/BlasphemyCoder)
-* **Diogo Silva (nmec 89348)** - [HerouFenix](https://github.com/HerouFenix)
+* **Vasco Ramos:** [vascoalramos](https://github.com/vascoalramos)
+* **Diogo Silva:** [HerouFenix](https://github.com/HerouFenix)
 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
