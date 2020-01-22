@@ -1,5 +1,29 @@
 # Drive-Through Restaurant P2P
 
+## Description
+
+This project is a product of the frist practical assignement of one of our classes: [Distributed Computing](https://www.ua.pt/en/uc/12273) and the main idea behind it is to implement a drive-through restaurant using a peer-to-peer distributed system architecture.
+
+### Simulation Entities
+This restaurant simulation is composed by five different entities:
+
+* **Restaurant:** entity responsible for managing all kitchen equipment (fryer, barbecue griller and bar).
+* **Clerk:** receives the clients and records their requests.
+* **Chef:** receives the requests and cooks them.
+* **Waiter:** delivers the order to the respective client and receives payment.
+* **Client:** makes a food request.
+
+This entities are organized in a token-ring.
+
+### Kitchen Equipments
+The kitchen is composed by 3 equipments:
+
+* **Barbecue griller:** where the Chef can prepare one hamburger (average preparing time: 3 seconds)
+* **Bar:** where the Chef can prepare one drink (average preparing time: 1 second)
+* **Fryer:** where the Chef can prepare one package of fries (average preparing time: 5 seconds)
+
+Each action takes a random time to be completed. This random time follows a gaussian distribution with an average time of 2 seconds and a standar deviation of 0.5 seconds. One client request is composed by at least one item (hamburger, drink or package of fries), but can be one possible combination of items with a maximum of 5 items. This request is generated randomly.
+
 ## Prerequisites
 
 * Clone this repository
@@ -36,10 +60,10 @@ $ git merge upstream/master
 
 ## Authors
 
-* **Vasco Ramos (nmec  88931)** - [BlasphemyCoder](https://github.com/BlasphemyCoder)
-* **Diogo Silva (nmec 89348)** - [HerouFenix](https://github.com/HerouFenix)
+* **Vasco Ramos:** [vascoalramos](https://github.com/vascoalramos)
+* **Diogo Silva:** [HerouFenix](https://github.com/HerouFenix)
 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
