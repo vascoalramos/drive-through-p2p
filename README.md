@@ -2,8 +2,9 @@
 
 ## Description
 
-This repository implement a drive-through restaurant using a peer-to-peer distributed system architecture.
+This project is a product of the frist practical assignement of one of our classes: [Distributed Computing](https://www.ua.pt/en/uc/12273) and the main idea behind it is to implement a drive-through restaurant using a peer-to-peer distributed system architecture.
 
+### Simulation Entities
 This restaurant simulation is composed by five different entities:
 
 * **Restaurant:** entity responsible for managing all kitchen equipment (fryer, barbecue griller and bar).
@@ -14,6 +15,7 @@ This restaurant simulation is composed by five different entities:
 
 This entities are organized in a token-ring.
 
+### Kitchen Equipments
 The kitchen is composed by 3 equipments:
 
 * **Barbecue griller:** where the Chef can prepare one hamburger (average preparing time: 3 seconds)
