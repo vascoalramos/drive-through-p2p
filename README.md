@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a product of the frist practical assignement of one of our classes: [Distributed Computing](https://www.ua.pt/en/uc/12273) and the main idea behind it is to implement a drive-through restaurant using a peer-to-peer distributed system architecture.
+This project is a product of the first practical assignement of one of our classes: [Distributed Computing](https://www.ua.pt/en/uc/12273) and the main idea behind it is to implement a drive-through restaurant using a peer-to-peer distributed system architecture.
 
 ### Simulation Entities
 This restaurant simulation is composed by five different entities:
